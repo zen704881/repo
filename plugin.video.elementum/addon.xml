@@ -2,7 +2,7 @@
   <addon id="plugin.video.elementum" name="Elementum" version="0.1.87" provider-name="elgatito">
     <requires>
       <import addon="xbmc.addon" version="16.0.0"></import>
-      <import addon="repository.elementum" version="" optional="true"></import>
+      <!--import addon="repository.elementum" version="" optional="true"></import -->
       <import addon="script.module.kodi-six" version=""></import>
       <import addon="script.module.requests" version=""></import>
     </requires>
