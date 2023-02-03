@@ -81,18 +81,4 @@
       <description lang="sv">Elementum är en torrentsöknings- och strömningsmotor. Det går inte till torrentwebbplatser av juridiska skäl. Den anropar dock speciellt utformade tillägg (kallade leverantörer) som installeras separat.[CR]Detta projekt är en förgrening av de välkända, men inte längre underhållna Pulsar/Quasar-projekten av steeve och scakemyer. </description>
     </extension>
   </addon>
-  <addon id="repository.elementum" name="Elementum Repository" version="0.1.86" provider-name="elgatito">
-    <requires></requires>
-    <extension point="xbmc.addon.repository" name="Elementum Repository">
-      <dir>
-        <info compressed="false">http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml</info>
-        <checksum>http://127.0.0.1:65220/repository/elgatito/plugin.video.elementum/addons.xml.md5</checksum>
-        <datadir zip="true">http://127.0.0.1:65220/repository/elgatito/</datadir>
-      </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <platform>all</platform>
-      <summary lang="en">GitHub repository for Elementum updates</summary>
-    </extension>
-  </addon>
 </addons>
